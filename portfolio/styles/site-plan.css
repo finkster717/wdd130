@@ -5,23 +5,23 @@ Fonts are separated by a |
 */
 
 #logo_img {
-  width: 15%;
+  max-width: 250px;
 }
 
 #self_img {
-  width: 30%;
+  max-width: 500px;
 }
 
 #p2_logo_img {
-  width: 40%;
+  max-width: 600px;
 }
 
 #p3_logo_img {
-  width: 40%;
+  max-width: 600px;
 }
 
 #wwr_project_img {
-  width: 50%
+  max-width: 400px;
 }
 
 :root {
