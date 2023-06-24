@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Portfolio | Resumé</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <div id="content">
         <header class="header-grid">
             <a id="logo-link" href="index.html">
-                <img class="logo" src="images/logo-white.png" alt="logo image">
+                <img class="logo" src="images/logo-white.png" alt="logo image" style="max-width: 400px;">
             </a>
             <nav>
                 <a href="index.html">Home</a>
@@ -20,9 +20,42 @@
             </nav>
         </header>
         <main class="content-grid">
-
+            <section class="resume-entry" style="margin-top: 10px; max-width: 800px;">
+                <h1 class="resume-entry-title">Web Development</h1>
+                <p class="resume-entry-text">
+                    <a id="rafting-site-link" href="https://finkster717.github.io/wdd130/wwr/index.html"><img id="rafting_site_img" src="images/hero.png" alt="people enjoying rafting" style="max-width: 300px; float: right;"></a>
+                    One of my projects I completed in a Web Development class at BYU - Idaho was a website for a white water rafting company. This website showcases my skills so far in HTML and CSS, and the site itself consists of three pages (a home page, a blog page, and a contact us page that includes a form). During this assignment I also became familiar with Microsoft Visual Studio Code.<br>The image to the right is a link to the website.
+                </p>
+            </section>
+            <section class="resume-entry" style="margin-top: 100px; max-width: 800px;">
+                <h1 class="resume-entry-title">Python</h1>
+                <p class="resume-entry-text">
+                    <img id="python-img" src="images/python-example.png" alt="example of python code" style="max-width: 300px; float: right;">
+                    My "Programming with Functions" class taught me the basics of writing code with Python, using Microsoft Visual Studio Code as an IDE. During this course I learned how to:
+                    <ol>
+                        <li>
+                            <p>Write and call functions in programs to accomplish meaningful tasks, research and call functions written by others.</p>
+                        </li>
+                        <li>
+                            <p>Write programs that can detect and recover from invalid conditions.</p>
+                        </li>
+                        <li>
+                            <p>Use libraries and objects written by others.</p>
+                        </li>
+                        <li>
+                            <p>Follow good practices in designing, writing, and debugging functions.</p>
+                        </li>
+                    </ol>
+                </p>
+            </section>
+            <section class="resume-entry" style="margin-top: 60px; max-width: 800px;">
+                <h1 class="resume-entry-title">Microsoft SQL Server</h1>
+                <p class="resume-entry-text">
+                    <img id="sql_img" src="images/sql_example.jpg" alt="example of sql" style="max-width: 300px; float: right;">
+                    While I owned and operated Fink's Intigration Services LLC, I gained experience in analyzing, organizing, and manipulating data in Microsoft SQL Server. My job was to take data with an outdated N2 format and integrate it into a SQL database. This data included the name, location, and status of all the mechanical equipment in a hospital building. To accomplish this, I used a tool called Metasys, which helps organize building automation systems and make them more efficient. After the integration was complete, I was tasked with maintaining the database and controling the mechanical equipment remotely from my office. I also trained the hospital's maintenance team on how to troubleshoot using a simplified form of the database to pinpoint what equipment was operating outside of the set acceptable parameters.
+                </p>
         </main>
-        <footer>
+        <footer style="margin-top: 100px">
             <p>Made in Visual Studio Code by yours truly. &copy;2023</p>
             <a href="site-plan.html">Site Plan</a>
         </footer>

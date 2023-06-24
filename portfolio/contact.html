@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Portfolio | Contact Me</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <div id="content">
         <header class="header-grid">
             <a id="logo-link" href="index.html">
-                <img class="logo" src="images/logo-white.png" alt="logo image">
+                <img class="logo" src="images/logo-white.png" alt="logo image" style="max-width: 400px;">
             </a>
             <nav>
                 <a href="index.html">Home</a>
@@ -20,10 +20,45 @@
             </nav>
         </header>
         <main class="content-grid">
+            <p id="contact-page-greeting" style="max-width:400px">Need someone to create a website, manage a database, or write a program? I'd be more than happy to help! Please fill out the form below if you wish to contact me. I will respond promptly.</p>
+            <div id="feedback"></div>
+            <form action="/my-handling-form-page" method="post" style="width:400px">
+                <h1 id="client-info-form-title">Client Info Form</h1>
+                <ul>
+                    <li>
+                        <label for="contact_name">Contact Name: <img id="contact-icon" src="images/contact-name.png" alt="contact icon" style="max-width:20px;"></label>
+                        <input type="text" id="contact_name" name="user_name" />
+                    </li>
+                    <li>
+                        <label for="company_name">Company Name: <img id="company-icon" src="images/company-name.png" alt="email icon" style="max-width:20px;"></label>
+                        <input type="text" id="company_name" name="company_name" />
+                    </li>
+                    <li>
+                        <label for="contact_phone">Contact Phone #: <img id="phone-icon" src="images/telephone-call.png" alt="phone icon" style="max-width:20px;"></label>
+                        <input type="text" id="contact_phone" name="user_phone" />
+                    </li>
+                    <li>
+                        <label for="mail">Contact Email: <img id="email-icon" src="images/email.png" alt="email icon" style="max-width:20px;"></label>
+                        <input type="email" id="email" name="user_email" />
+                    </li>
+                    <li>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message">Your message here...</textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Send your message</button>
+                    </li>
+                </ul>
+            </form>
 
         </main>
         <footer>
             <p>Made in Visual Studio Code by yours truly. &copy;2023</p>
+            <h3>Icon Credits:</h3>
+            <a href="https://www.flaticon.com/free-icons/telephone" title="telephone icons">Telephone icon created by Ilham Fitrotul Hayat - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icon created by Uniconlabs - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/contact" title="contact icons">Contact icon created by Indra Maulana Yusuf - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/architecture-and-city" title="architecture and city icons">Architecture and city icon created by Aditnikov - Flaticon</a>
             <a href="site-plan.html">Site Plan</a>
         </footer>
     </div>
