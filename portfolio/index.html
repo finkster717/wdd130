@@ -10,19 +10,21 @@
 <body>
     <div id="content">
         <header class="header-grid">
-            <a id="logo-link" href="index.html">
-                <img class="logo" src="images/logo-transparent.png" alt="logo image" style="max-width: 400px;">
-            </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="resume.html">Resumé</a>
-                <a href="contact.html">Contact Me</a>
-            </nav>
+            <div class="header-container">
+                <a id="logo-link" href="index.html">
+                    <img class="logo" src="images/logo-transparent.png" alt="logo image">
+                </a>
+                <nav class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="resume.html">Resumé</a>
+                    <a href="contact.html">Contact Me</a>
+                </nav>
+            </div>
         </header>
         <main class="content-grid">
-            <img id="me" src="images/byuprofilepic.jpg" alt="picture of me" style="max-width: 400px;">
-            <section id="home_intro">
-                <h1>Welcome</h1>
+            <img id="me" src="images/byuprofilepic.png" alt="picture of me">
+            <section id="home-intro">
+                <h1 id="intro-heading">Welcome</h1>
                 <br>
                 <p>Hello! My name is Michael Fink. I am an aspiring Software Developer pursuing a Bachelor’s degree at Brigham Young University - Idaho.<br>
                 <br>
@@ -31,7 +33,7 @@
                 <br></p>
             </section>
         </main>
-        <footer>
+        <footer class="footer-grid">
             <p>Made in Visual Studio Code by yours truly. &copy;2023</p>
             <h3>Site Plan</h3>
             <a href="site-plan.html">Site Plan</a>
