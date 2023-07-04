@@ -10,29 +10,31 @@
 <body>
     <div id="content">
         <header class="header-grid">
-            <a id="logo-link" href="index.html">
-                <img class="logo" src="images/logo-white.png" alt="logo image" style="max-width: 400px;">
-            </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="resume.html">Resumé</a>
-                <a href="contact.html">Contact Me</a>
-            </nav>
+            <div class="header-container">
+                <a id="logo-link" href="index.html">
+                    <img class="logo" src="images/logo-white.png" alt="logo image">
+                </a>
+                <nav class="nav-links">
+                    <a href="index.html">Home</a><br><br>
+                    <a href="resume.html">Resumé</a><br><br>
+                    <a href="contact.html">Contact Me</a>
+                </nav>
+            </div>
         </header>
-        <main class="content-grid">
+        <main id="resume-grid">
             <section class="resume-entry" style="margin-top: 10px; max-width: 800px;">
                 <h1 class="resume-entry-title">Web Development</h1>
                 <p class="resume-entry-text">
-                    <a id="rafting-site-link" href="https://finkster717.github.io/wdd130/wwr/index.html"><img id="rafting_site_img" src="images/hero.png" alt="people enjoying rafting" style="max-width: 300px; float: right;"></a>
+                    <a id="rafting-site-link" href="https://finkster717.github.io/wdd130/wwr/index.html"><img class="resume-entry-img" src="images/hero.png" alt="people enjoying rafting"></a>
                     One of my projects I completed in a Web Development class at BYU - Idaho was a website for a white water rafting company. This website showcases my skills so far in HTML and CSS, and the site itself consists of three pages (a home page, a blog page, and a contact us page that includes a form). During this assignment I also became familiar with Microsoft Visual Studio Code.<br>The image to the right is a link to the website.
                 </p>
             </section>
             <section class="resume-entry" style="margin-top: 100px; max-width: 800px;">
                 <h1 class="resume-entry-title">Python</h1>
                 <p class="resume-entry-text">
-                    <img id="python-img" src="images/python-example.png" alt="example of python code" style="max-width: 300px; float: right;">
+                    <img class="resume-entry-img" src="images/python-example.png" alt="example of python code">
                     My "Programming with Functions" class taught me the basics of writing code with Python, using Microsoft Visual Studio Code as an IDE. During this course I learned how to:
-                    <ol>
+                    <ol id="python-list">
                         <li>
                             <p>Write and call functions in programs to accomplish meaningful tasks, research and call functions written by others.</p>
                         </li>
@@ -51,14 +53,16 @@
             <section class="resume-entry" style="margin-top: 60px; max-width: 800px;">
                 <h1 class="resume-entry-title">Microsoft SQL Server</h1>
                 <p class="resume-entry-text">
-                    <img id="sql_img" src="images/sql_example.jpg" alt="example of sql" style="max-width: 300px; float: right;">
+                    <img class="resume-entry-img" src="images/sql_example.jpg" alt="example of sql">
                     While I owned and operated Fink's Intigration Services LLC, I gained experience in analyzing, organizing, and manipulating data in Microsoft SQL Server. My job was to take data with an outdated N2 format and integrate it into a SQL database. This data included the name, location, and status of all the mechanical equipment in a hospital building. To accomplish this, I used a tool called Metasys, which helps organize building automation systems and make them more efficient. After the integration was complete, I was tasked with maintaining the database and controling the mechanical equipment remotely from my office. I also trained the hospital's maintenance team on how to troubleshoot using a simplified form of the database to pinpoint what equipment was operating outside of the set acceptable parameters.
                 </p>
         </main>
-        <footer class="footer-grid" style="margin-top: 100px">
-            <p>Made in Visual Studio Code by yours truly. &copy;2023</p>
-            <h3>Site Plan</h3>
-            <a href="site-plan.html">Site Plan</a>
+        <footer>
+            <div class="footer-content">
+                <a href="site-plan.html">Site Plan</a>
+                <h3>Site Plan</h3>
+                <p>Made in Visual Studio Code by yours truly. &copy;2023</p>
+            </div>
         </footer>
     </div>
 </body>

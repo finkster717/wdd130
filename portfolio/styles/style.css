@@ -50,7 +50,7 @@ nav a:hover {
     border-radius: 10%;
 }
 
-.content-grid {
+#home-grid {
     grid-column: 2/3;
     grid-row: 1/2;
     display: grid;
@@ -83,11 +83,44 @@ nav a:hover {
 
 #intro-heading {
     color:#00ce53;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 2em;
 }
 
 #home-intro p {
     color: whitesmoke;
     font-family: "Courier New", Courier, monospace;
+}
+
+#resume-grid {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #047638;  
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+
+.resume-entry-title {
+    color: #00ce53;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 2em;
+}
+
+.resume-entry-text {
+    color: whitesmoke;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#python-list {
+    color: whitesmoke;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.resume-entry-img {
+    max-width: 300px; 
+    float: right;
 }
 
 footer {
